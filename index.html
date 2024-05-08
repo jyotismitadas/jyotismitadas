@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/4081e537d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4081e537d5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo" alt="" srcset="">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!-- <li><a href="#projects">Knowlegeable Domains</a></li>
+                        <li><a href="#portfolio">Projects</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p style="font-size: 25px;margin-bottom: 15px;">Heyy!!</p>
+                <h2>I am <span> Jyotismita Das.</span></h2>
+                <p style="font-size: 15px;margin-top: 15px;">A <span style="color: #ff004f;"> Psychology student.</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.ibb.co/fXffHX8/Whats-App-Image-2024-05-08-at-8-28-16-AM.jpg" alt="" srcset="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a first-year BSc Psychology student at MS Ramaiah University of Applied Sciences, Bangalore, I'm dedicated to understanding the complexities of human behavior. With a passion for social work and a vision to start my own psychology-based startup, I'm committed to making a positive impact in society.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Internships</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Time Management <br> </span> Proficient in effectively allocating time and resources to ensure tasks and projects are completed efficiently and within deadlines. With a keen ability to prioritize tasks and manage schedules, I consistently deliver high-quality work on time, maintaining productivity and meeting objectives.
+                            </li>
+                            <li>
+                                <span>Empathetic <br> </span> Possessing a deep understanding of others' emotions and perspectives, I approach interactions and collaborations with empathy and sensitivity. By actively listening and considering diverse viewpoints, I foster inclusive environments and meaningful connections, enhancing team dynamics and overall project success.
+                            </li>
+                            <li>
+                                <span>Ethical Awareness <br> </span> Guided by strong ethical principles, I uphold integrity and honesty in all aspects of my work. With a commitment to transparency and fairness, I navigate complex ethical dilemmas with integrity, ensuring that decisions and actions align with moral values and professional standards.
+                            </li>
+                            <li>
+                                <span>Problem Solving <br> </span> Possessing a strong analytical mindset and creative problem-solving skills, I excel at identifying challenges and developing innovative solutions. Through systematic analysis and strategic thinking, I tackle problems with confidence and adaptability, effectively overcoming obstacles and driving continuous improvement.
+                            </li>
+                            <li>
+                                <span>Research Skills <br> </span> Proficient in conducting thorough research and synthesizing information from diverse sources, I leverage my analytical abilities to gather insights and inform decision-making. With a meticulous approach to data analysis and interpretation, I produce well-informed strategies and recommendations that drive project success and innovation.
+                            </li>
+                            <li>
+                                <span>Communication Skills <br> </span> Exceptional verbal and written communication skills enable me to convey ideas and information effectively across various channels and audiences. Whether collaborating with team members, presenting findings to stakeholders, or engaging with clients, I articulate complex concepts with clarity and professionalism, fostering collaboration and driving project outcomes.
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Internship with NGO: Muskurahat Foundation <br> </span>
+                                During my internship with Muskurahat Foundation, I actively contributed to projects aimed at uplifting underprivileged communities and promoting mental health awareness. Through my dedication and commitment, I assisted in organizing community outreach programs, facilitating educational workshops, and providing support to individuals in need. My experience with Muskurahat Foundation has not only deepened my understanding of social issues but also instilled in me a sense of empathy and compassion for marginalized populations. <br>Bengaluru  
+                            </li>
+                            <li>
+                                <span>Course on Introduction to Psychology from Coursera <br> </span>
+                                Enrolling in the Introduction to Psychology course on Coursera has broadened my knowledge and understanding of human behavior, cognition, and mental processes. Through engaging lectures and interactive assignments, I gained insight into various psychological theories and research methods, enhancing my analytical skills and critical thinking abilities. This course has equipped me with valuable insights that I apply in both professional and personal contexts, enriching my approach to problem-solving and decision-making. <br>Online Learning
+                            </li>
+                            <li>
+                                <span>Volunteering for Events <br> </span>
+                                Volunteering for events such as Petfed and various college events has provided me with valuable opportunities to contribute to community initiatives and develop essential soft skills. By actively participating in event planning, coordination, and execution, I honed my communication, teamwork, and organizational abilities. Through my involvement in diverse events, I cultivated a strong sense of community engagement and social responsibility, making meaningful contributions to the success of each endeavor. <br>Bengaluru
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>St. Teresa's English Medium School, Barpeta, Assam (2016-2020) <br> </span>
+                                During my secondary education at St. Teresa's English Medium School, I acquired a strong foundation in academic excellence and personal development. With a focus on holistic learning and character building, I actively participated in extracurricular activities and community service initiatives, fostering a well-rounded education experience. My dedication and commitment to excellence were reflected in my performance, culminating in the successful completion of my 10th board exams with 85% marks. <br>Barpeta, Assam
+                            </li>
+                            <li>
+                                <span>Krishna Kanta Handiqui Senior Secondary School, Patshala, Assam (2021-2022) <br> </span>
+                                Continuing my academic journey at Krishna Kanta Handiqui Senior Secondary School, I pursued my higher secondary education with a focus on science and mathematics. Immersed in a rigorous academic curriculum, I developed critical thinking skills and problem-solving abilities, preparing me for future challenges and opportunities. Despite the academic demands, I actively engaged in extracurricular activities and leadership roles, demonstrating my commitment to holistic development. My efforts were rewarded with a commendable performance in the 12th board exams, where I achieved a score of 76%. <br>Patshala, Assam
+                            </li>
+                            <li>
+                                <span>St. Mary's English Medium School, Barpeta Road, Assam (2008-2015) <br> </span>
+                                My educational journey began at St. Mary's English Medium School, where I received a nurturing environment that fostered intellectual curiosity and personal growth. Through engaging lessons and supportive teachers, I developed a strong academic foundation and a passion for lifelong learning. With dedication and perseverance, I excelled in my studies, culminating in outstanding academic achievements. I successfully completed my 10th board exams with an impressive score of 98.4%, setting a precedent for academic excellence that would shape my future endeavors. <br>Barpeta Road, Assam
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Projects -->
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact Me
+                </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dasjyotismita584@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+91 8822093136</p>
+                <div class="social-icons">
+                    <!-- <a href="https://www.linkedin.com/in/sumukha-u-61638a1b1/"><i class="fab fa-linkedin"></i></a> -->
+                    <!-- <a href="https://github.com/sumukhabhat3502"><i class="fab fa-github"></i></a> -->
+                </div>
+                <!-- <a href="images/Sumukha_CV.pdf" class="btn btn-left" download>Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-left">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxp4hvobIvqIWxUT0GYEADKBAfKKDzRXKSpQq130HkWX1vOKlSPi7cv7EzfIPmBMwbM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent!!"
+                setTimeout(function(){
+                    msg.innerHTMl=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
